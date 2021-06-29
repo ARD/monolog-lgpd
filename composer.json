@@ -1,0 +1,23 @@
+{
+    "name": "ard/monolog-lgpd",
+    "description": "Monolog processor for filtering sensitive data",
+    "keywords": ["monolog", "processor", "lgpl", "sensitive data", "log"],
+    "homepage": "https://github.com/ARD/monolog-lgpd",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "monolog/monolog": "^2.2",
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": { "ARD\\Monolog\\FilterSensitive\\": "src/" }
+    },
+    "minimum-stability": "stable",
+    "authors": [{
+        "name": "André Rainaud",
+        "email": "contato@andrerainaud.com.br"
+    }],
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
