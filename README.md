@@ -67,7 +67,7 @@ $processor->addCustomFilter(
     {
         public static function pattern(): string
         {
-            return '/([0-9]{3})\.([0-9]{3})/';
+            return '/(^[0-9]{3})\.([0-9]{3})$/';
         }
 
         public static function replace(): string
@@ -101,5 +101,5 @@ $processor->removeFilter(FilterIP::class);
 $log->pushProcessor($processor);
 
 // add records to the log
-$log->warning('The user id 123.456'); 
+$log->warning('User email@domain.com and IP 127.0.0.1'); 
 ```
