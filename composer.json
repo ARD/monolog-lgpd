@@ -1,7 +1,7 @@
 {
     "name": "ard/monolog-lgpd",
     "description": "Monolog processor for filtering sensitive data",
-    "keywords": ["monolog", "processor", "lgpl", "sensitive data", "log"],
+    "keywords": ["monolog", "processor", "lgpd", "sensitive data", "log"],
     "homepage": "https://github.com/ARD/monolog-lgpd",
     "type": "library",
     "license": "MIT",
